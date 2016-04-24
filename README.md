@@ -33,6 +33,12 @@ call vundle#end()
   ```
   colorscheme=mustang
   ```
+  
+  **Attention** 
+  
+  The `IndentGuide` color definitions are designed for a dark background and might not fit your taste on a light background. You can, however, override these definitions using the commands documented at [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides). 
+  
+  Furthermore, depending on your version of vim and [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides), it might be necessary to disable automatic color detection for [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides) in order to use the indent guide color definitions provided within this colorscheme.
 
 ## Credits
   This is a fork of [croaker/mustang-vim](https://github.com/croaker/mustang-vim).
