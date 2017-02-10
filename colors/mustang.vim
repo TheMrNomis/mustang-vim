@@ -1,7 +1,7 @@
 " Credits: Fork of croaker/mustang-vim
 " Maintainer: HP Dietz | h.p.dietz@gmail.com | @h_p_d
-" Version:      1.2.1
-" Last Change:  April 24 2016
+" Version:      1.2.2
+" Last Change:  February 11 2017
 
 set background=dark
 
@@ -20,7 +20,7 @@ if version >= 700
   hi CursorColumn                 guibg=#2d2d2d ctermbg=236
   hi MatchParen    guifg=#d0ffc0  guibg=#2f2f2f gui=bold ctermfg=157 ctermbg=237 cterm=bold
   hi Pmenu         guifg=#ffffff  guibg=#444444 ctermfg=255 ctermbg=238
-  hi PmenuSel      guifg=#000000  guibg=#b1d631 ctermfg=0 ctermbg=148
+  hi PmenuSel      guifg=#000000  guibg=#b1d631 ctermfg=000 ctermbg=148
 endif
 
 " General colors
@@ -31,9 +31,9 @@ hi LineNr       guifg=#808080 guibg=#202020 gui=none ctermfg=244 ctermbg=232
 hi StatusLine   guifg=#d3d3d5 guibg=#444444 gui=italic ctermfg=253 ctermbg=238 cterm=italic
 hi StatusLineNC guifg=#939395 guibg=#444444 gui=none ctermfg=246 ctermbg=238
 hi VertSplit    guifg=#444444 guibg=#444444 gui=none ctermfg=238 ctermbg=238
-hi Folded       guifg=#a0a8b0 guibg=#202020 gui=none ctermbg=4 ctermfg=248
+hi Folded       guifg=#a0a8b0 guibg=#202020 gui=none ctermfg=024 ctermbg=048
 hi Title        guifg=#f6f3e8 guibg=NONE    gui=bold ctermfg=254 cterm=bold
-hi Visual       guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=4
+hi Visual       guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=004
 hi SpecialKey   guifg=#808080 guibg=#202020 gui=none ctermfg=244 ctermbg=236
 
 " Syntax highlighting
@@ -46,7 +46,7 @@ hi Function   guifg=#ffffff gui=bold ctermfg=255
 hi Type       guifg=#7e8aa2 gui=none ctermfg=103
 hi Statement  guifg=#7e8aa2 gui=none ctermfg=103
 hi Keyword    guifg=#ff9800 gui=none ctermfg=208
-hi Constant   guifg=#ff9800 gui=none  ctermfg=208
+hi Constant   guifg=#ff9800 gui=none ctermfg=208
 hi Number     guifg=#ff9800 gui=none ctermfg=208
 hi Special    guifg=#ff9800 gui=none ctermfg=208
 hi PreProc    guifg=#faf4c6 gui=none ctermfg=230
@@ -56,13 +56,13 @@ hi Todo       guifg=#000000 guibg=#e6ea50 gui=italic
 hi pythonOperator guifg=#7e8aa2 gui=none ctermfg=103
 
 " Indent guide colors
-hi IndentGuidesOdd guibg=#161616 ctermbg=233
+hi IndentGuidesOdd  guibg=#161616 ctermbg=233
 hi IndentGuidesEven guibg=#2d2d2d ctermbg=236
 
 " NERDTree colors
 hi NERDTreeFile     guifg=#cdd2db ctermfg=250
 hi NERDTreeDir      guifg=#a5aebe ctermfg=111
-hi NERDTreeUp       guifg=#5b646d ctermfg=62
+hi NERDTreeUp       guifg=#5b646d ctermfg=062
 
 hi def link NERDTreeOpenable String
 hi def link NERDTreeCloseable NERDTreeOpenable
