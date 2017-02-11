@@ -1,3 +1,6 @@
+# 1.2.2
+* Reorganized columns, list characters made less distracting
+
 # 1.2.1
 * Update indent guide colors
 
