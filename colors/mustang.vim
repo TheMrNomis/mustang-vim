@@ -26,7 +26,7 @@ endif
 " General colors
 hi Cursor                                     guibg=#626262 ctermbg=241 gui=none
 hi Normal           guifg=#e2e2e5 ctermfg=253 guibg=#202020 ctermbg=234 gui=none
-hi NonText          guifg=#808080 ctermfg=244 guibg=#202020 ctermbg=235 gui=none
+hi NonText          guifg=#808080 ctermfg=237 guibg=#202020 ctermbg=234 gui=none
 hi LineNr           guifg=#808080 ctermfg=244 guibg=#202020 ctermbg=232 gui=none
 hi StatusLine       guifg=#d3d3d5 ctermfg=253 guibg=#444444 ctermbg=238 gui=italic cterm=italic
 hi StatusLineNC     guifg=#939395 ctermfg=246 guibg=#444444 ctermbg=238 gui=none
@@ -34,7 +34,7 @@ hi VertSplit        guifg=#444444 ctermfg=238 guibg=#444444 ctermbg=238 gui=none
 hi Folded           guifg=#a0a8b0 ctermfg=024 guibg=#202020 ctermbg=048 gui=none
 hi Title            guifg=#f6f3e8 ctermfg=254                           gui=bold   cterm=bold
 hi Visual           guifg=#faf4c6 ctermfg=254 guibg=#3c414c ctermbg=004 gui=none
-hi SpecialKey       guifg=#808080 ctermfg=244 guibg=#202020 ctermbg=236 gui=none
+hi SpecialKey       guifg=#808080 ctermfg=237 guibg=#202020 ctermbg=234 gui=none
 
 " Syntax highlighting
 hi Comment          guifg=#808080 ctermfg=244                           gui=italic
