@@ -15,7 +15,7 @@ let colors_name = "mustang"
 
 " Vim >= 7.0 specific colors
 if version >= 700
-  hi CursorLine                               guibg=#2d2d2d ctermbg=236
+  hi CursorLine                               guibg=#2d2d2d ctermbg=236 gui=none   cterm=none
   hi ColorColumn                              guibg=#2d2d2d ctermbg=236
   hi CursorColumn                             guibg=#2d2d2d ctermbg=236
   hi MatchParen     guifg=#d0ffc0 ctermfg=157 guibg=#2f2f2f ctermbg=237 gui=bold   cterm=bold
