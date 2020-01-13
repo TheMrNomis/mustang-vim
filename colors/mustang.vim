@@ -37,10 +37,10 @@ hi Visual           guifg=#faf4c6 ctermfg=254 guibg=#3c414c ctermbg=004 gui=none
 hi SpecialKey       guifg=#808080 ctermfg=237 guibg=#202020 ctermbg=234 gui=none
 
 " Syntax highlighting
-hi Comment          guifg=#808080 ctermfg=244                           gui=italic
-hi Todo             guifg=#8f8f8f ctermfg=245                           gui=italic
+hi Comment          guifg=#808080 ctermfg=244                           gui=none
+hi Todo             guifg=#8f8f8f ctermfg=245                           gui=none
 hi Boolean          guifg=#b1d631 ctermfg=148                           gui=none
-hi String           guifg=#b1d631 ctermfg=148                           gui=italic
+hi String           guifg=#b1d631 ctermfg=148                           gui=none
 hi Identifier       guifg=#b1d631 ctermfg=148                           gui=none
 hi Function         guifg=#ffffff ctermfg=255                           gui=bold
 hi Type             guifg=#7e8aa2 ctermfg=103                           gui=none
@@ -50,7 +50,7 @@ hi Constant         guifg=#ff9800 ctermfg=208                           gui=none
 hi Number           guifg=#ff9800 ctermfg=208                           gui=none
 hi Special          guifg=#ff9800 ctermfg=208                           gui=none
 hi PreProc          guifg=#faf4c6 ctermfg=230                           gui=none
-hi Todo             guifg=#000000             guibg=#e6ea50             gui=italic
+hi Todo             guifg=#000000             guibg=#e6ea50             gui=none
 
 " Code-specific colors
 hi pythonOperator   guifg=#7e8aa2 ctermfg=103                           gui=none
